@@ -59,6 +59,7 @@ RUN apt-get -qq update && \
         git \
         curl \
         vim \
+        wget \
     && apt-get clean
 
 #####################################
